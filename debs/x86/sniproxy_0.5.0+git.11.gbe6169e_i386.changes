@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 18 Oct 2017 02:37:21 +0000
+Source: sniproxy
+Binary: sniproxy sniproxy-dbg
+Architecture: source i386
+Version: 0.5.0+git.11.gbe6169e
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Dustin Lundquist <dustin@null-ptr.net>
+Changed-By: root <root@openvpn86>
+Description:
+ sniproxy   - Transparent TLS and HTTP layer 4 proxy with SNI support
+ sniproxy-dbg - debugging symbols for sniproxy
+Changes:
+ sniproxy (0.5.0+git.11.gbe6169e) UNRELEASED; urgency=medium
+ .
+   * New git revision
+Checksums-Sha1:
+ 8185521e6b694b68c826a1513dad9eb111c2b555 845 sniproxy_0.5.0+git.11.gbe6169e.dsc
+ 8cda1b7a98b85d6c2584961a908287ebc6d5785b 162820 sniproxy_0.5.0+git.11.gbe6169e.tar.xz
+ 214488fcc5854afed2119922235f8b2647406854 54876 sniproxy-dbg_0.5.0+git.11.gbe6169e_i386.deb
+ f214f64586a46784de4de1da71f0134976dd3ad9 38502 sniproxy_0.5.0+git.11.gbe6169e_i386.deb
+Checksums-Sha256:
+ deb9ca542c407301e60c6c744c9a46321b98a88ca4ec112baff4697d66be35b0 845 sniproxy_0.5.0+git.11.gbe6169e.dsc
+ 108be1ff7da66bbc9e55c12bec5e9c9a66ec24bd1a2c3933d53306f804de9306 162820 sniproxy_0.5.0+git.11.gbe6169e.tar.xz
+ 8a38173b4e1d0438a1b38fcfb07ccbae2239dacd10a9d2cf2017bf530a7601c5 54876 sniproxy-dbg_0.5.0+git.11.gbe6169e_i386.deb
+ 187c6ce4da761fabbc56a1228c06e5c21d31c3be024bf32c81b35f2d30120267 38502 sniproxy_0.5.0+git.11.gbe6169e_i386.deb
+Files:
+ 5e2e2dd1ee1d14c96808d83a69977e08 845 web optional sniproxy_0.5.0+git.11.gbe6169e.dsc
+ 30ddb7dd6d978090b008a3c46581d2b0 162820 web optional sniproxy_0.5.0+git.11.gbe6169e.tar.xz
+ 0d9055735efc7f1e9da8a69ef9eb691b 54876 debug extra sniproxy-dbg_0.5.0+git.11.gbe6169e_i386.deb
+ 8d8509b6bd180529abcdd690a8e365f9 38502 web optional sniproxy_0.5.0+git.11.gbe6169e_i386.deb
